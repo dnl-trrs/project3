@@ -1,0 +1,39 @@
+/* Mobile styles */
+/* Media query for screens with a minimum width of 600px */
+@media only screen and (min-width: 600px) {
+body {
+  font-size: 16px;
+}
+
+nav a {
+  padding: 10px;
+}
+
+.centered-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered-section h2 {
+  font-size: 1.5em;
+}
+}
+
+/* Media query for screens with a minimum width of 900px */
+@media only screen and (min-width: 900px) {
+body {
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav a {
+  font-size: 1.2em;
+}
+
+.centered-section {
+  padding: 20px;
+}
+
+.centered-section h3 {
+  margin-bottom: 10px;
+}
+}
